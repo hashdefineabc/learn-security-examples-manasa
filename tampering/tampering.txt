@@ -1,0 +1,8 @@
+Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+The problem happens when the system doesn't clean up the "name" property properly before using it. This lets attackers sneak in harmful code, which could mess up the system's security.
+
+To fix this, the secure version makes sure to clean up all the information it gets before using it. This stops the attackers from slipping in harmful code and causing trouble.
+
+• Which CIA property does tampering violate?
+integrity

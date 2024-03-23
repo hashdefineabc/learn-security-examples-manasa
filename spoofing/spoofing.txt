@@ -1,1 +1,4 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+The problem with insecure.js was that it let anyone change session information easily because it didn't protect the session cookies properly. This made it easy for attackers to take over sessions or trick the system into doing things it shouldn't.
+
+But the secure version fixed this by making sure that session cookies are set to be "httpOnly," meaning they can't be messed with by code running in the browser. This stops the attackers from sneaking in and causing trouble.
