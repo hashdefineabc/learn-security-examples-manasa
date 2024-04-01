@@ -1,2 +1,8 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+1. The vulnerability is that it cannot match the action performed by the user as user's actions are not logged.
+The secure version is better at preventing repudiation than the insecure version because it has a middleware that loggs the incoming request details.
+
+2. We can add authentication secure the log files from unauthorized access.

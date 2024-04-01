@@ -1,2 +1,6 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+1. Error handling is absent when we are querying the database. The data will be inaccessible by the user if the server crashes due to the error.
+
+2. We can incorporate input sanitization to prevent such attacks.

@@ -1,3 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+1. The username is not sanitized in the insecure script which can allow NoSql injection attack from a malicious user.
+The secure version prevents the vulnerability by sanitizing the username received from the user.
+
+2. Confidentiality
+
+3. We can incorporate authentication, encrypt the payload, etc.
